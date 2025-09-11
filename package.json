@@ -1,0 +1,36 @@
+{
+  "name": "lovemoney-game-website",
+  "version": "1.0.0",
+  "description": "LoveMoney Game官方网站 - 使用EdgeOne Pages MCP部署",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "node deploy.js",
+    "deploy-single": "node deploy-single.js",
+    "build": "echo 'No build process needed for static site'",
+    "serve": "npx serve . -p 3000",
+    "validate": "node validate.js"
+  },
+  "dependencies": {
+    "edgeone-pages-mcp": "latest"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  },
+  "keywords": [
+    "lovemoney",
+    "game",
+    "website",
+    "edgeone",
+    "mcp",
+    "deployment"
+  ],
+  "author": "SugarSugar Game Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elng12/lovemoneygame.co.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
